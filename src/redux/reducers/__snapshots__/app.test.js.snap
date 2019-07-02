@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`INITIAL_STATE is correct 1`] = `
+Object {
+  "status": "App Runing!!!",
+}
+`;
+
+exports[`START_APP returns the correct state 1`] = `
+Object {
+  "status": undefined,
+}
+`;

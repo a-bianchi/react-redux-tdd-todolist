@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ADD_ELEMENT returns the correct state 1`] = `
+Array [
+  Object {
+    "key": 12345,
+    "name": "First task",
+  },
+  "First task",
+]
+`;
+
+exports[`INITIAL_STATE is correct 1`] = `
+Array [
+  Object {
+    "key": 12345,
+    "name": "First task",
+  },
+]
+`;
+
+exports[`REMOVE_ELEMENT returns the first element 1`] = `
+Array [
+  Object {
+    "key": 12345,
+    "name": "First task",
+  },
+]
+`;
