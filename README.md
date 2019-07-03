@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+	<a href="https://github.com/Linusar/react-redux-tdd-todolist"  target="_blank">
+	<img  align="center"  alt="watermelon"  src="https://github.com/Linusar/react-redux-tdd-todolist/src/images/pineapple.png.png"  />
+	</a>
+</p>
 
-## Available Scripts
+<h1 align="center">React-Redux To do list </h1>
 
-In the project directory, you can run:
+<p>Construction of "to do list" with redux and application of tdd concepts..</p>
 
-### `npm start`
+<h2>Use</h2>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p>
+<h3> Core </h3>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- React
+- React-router-dom
+- Redux
+- [Formik](https://jaredpalmer.com/formik/)
+  </p>
 
-### `npm test`
+<p>
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>
+<h3> Validate </h3>
 
-### `npm run build`
+- [Yup](https://github.com/jquense/yup)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ </p>
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+<p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3> Test </h3>
 
-### `npm run eject`
+- [Jest](https://jestjs.io/)
+- [Enzyme](https://airbnb.io/enzyme/)
+- [Redux-Mock-Store](https://github.com/dmitry-zaets/redux-mock-store)
+- [Cypress](https://www.cypress.io/)
+  </p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h3> UI </h3>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Material-UI](https://material-ui.com)
+  </p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h2>Build from source</h2>
 
-## Learn More
+Clone the project to your computer and run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+# package install
+yarn install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# build files
+yarn build
 
-### Code Splitting
+# unit tests
+yarn test
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# e2e tests
+yarn e2e
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+<h2>Inspired by</h2>
 
-### Making a Progressive Web App
+<p>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+[https://learntdd.in/](https://learntdd.in/react/)
 
-### Advanced Configuration
+</p>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h2>Social</h2>
+<img  alt="Twitter URL"  src="https://img.shields.io/twitter/url/http/@Alejo40740246.svg?style=social">

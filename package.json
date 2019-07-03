@@ -1,7 +1,10 @@
 {
   "name": "react-redux-tdd-boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "description": "React-Redux app to do list",
+  "repository": "git@github.com:Linusar/react-redux-tdd-todolist.git",
+  "author": "Alejo Bianchi <alejobianchi@gmail.com>",
+  "license": "Apache-2.0",
   "dependencies": {
     "@material-ui/core": "^4.1.2",
     "@material-ui/icons": "^4.2.1",
