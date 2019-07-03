@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="https://github.com/Linusar/react-redux-tdd-todolist"  target="_blank">
-	<img  align="center"  alt="pineapple"  src="https://raw.githubusercontent.com/Linusar/react-redux-tdd-todolist/master/src/images/pineapple.png  />
+	<img  align="center"  alt="pineapple"  src="https://raw.githubusercontent.com/Linusar/react-redux-tdd-todolist/master/src/images/pineapple.png"  />
 	</a>
 </p>
 
