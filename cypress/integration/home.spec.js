@@ -52,7 +52,7 @@ describe('Task actions', () => {
     cy.contains('Please enter no more than 40 characters');
   });
 
-  it('elimine the "First task" in the list', () => {
+  it('elimine the "First task" the list', () => {
     cy.visit('http://localhost:3000');
 
     cy.get('[data-test="removeElement-0"]').click();

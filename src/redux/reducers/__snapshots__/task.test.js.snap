@@ -19,11 +19,4 @@ Array [
 ]
 `;
 
-exports[`REMOVE_ELEMENT returns the first element 1`] = `
-Array [
-  Object {
-    "key": 12345,
-    "name": "First task",
-  },
-]
-`;
+exports[`REMOVE_ELEMENT returns the first element 1`] = `Array []`;

@@ -11,10 +11,11 @@ import DeleteIcon from '@material-ui/icons/Delete';
 const propTypes = {
   rows: PropTypes.arrayOf(
     PropTypes.shape({
+      key: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
     }),
-  ).isRequired,
-  handelAction: PropTypes.func.isRequired,
+  ),
+  removeElement: PropTypes.func,
 };
 
 const useStyles = makeStyles(theme => ({
@@ -36,23 +37,22 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-// Se tiene que ver la manito al pasar por boton de eliminar
-const ListOfElements = ({ rows, handelAction }) => {
+const ListOfElements = ({ rows, removeElement }) => {
   const classes = useStyles();
   return (
     <div>
       <Paper className={classes.root}>
-        <Table className={classes.table}>
+        <Table className={classes.table} data-test="table-task">
           <TableBody>
             {rows.map((task, index) => (
-              <TableRow key={`${index}${task}`}>
+              <TableRow data-test={`task-${index}`} key={`${index}${task.key}`}>
                 <TableCell align="left">{task.name}</TableCell>
                 <TableCell align="right">
                   <button
                     className={classes.button}
                     type="button"
                     data-test={`removeElement-${index}`}
-                    onClick={() => handelAction(task.key)}
+                    onClick={() => removeElement(task.key)}
                   >
                     <DeleteIcon className={classes.icon} />
                   </button>
@@ -64,6 +64,11 @@ const ListOfElements = ({ rows, handelAction }) => {
       </Paper>
     </div>
   );
+};
+
+ListOfElements.defaultProps = {
+  rows: [{ key: 12345, name: 'First task' }],
+  removeElement: (id) => {},
 };
 
 ListOfElements.propTypes = propTypes;

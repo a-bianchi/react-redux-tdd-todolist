@@ -24,20 +24,17 @@ class HomeContainer extends Component {
 
   render() {
     const { tasks, addElementAction, removeElementAction } = this.props;
-    console.log(tasks);
     return (
       <div>
         <h1>To Do List</h1>
         <ListOfElementsForm handleAction={addElementAction} />
-        <ListOfElements rows={tasks} handelAction={removeElementAction} />
+        <ListOfElements rows={tasks} removeElement={removeElementAction} />
       </div>
     );
   }
 }
 
 HomeContainer.propTypes = propTypes;
-
-HomeContainer.defaultProps = { addElementAction, removeElementAction };
 
 const mapDispatchToProps = { appStartActions, addElementAction, removeElementAction };
 

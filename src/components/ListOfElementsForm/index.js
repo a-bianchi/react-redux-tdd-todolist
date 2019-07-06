@@ -5,7 +5,7 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 
 const propTypes = {
-  handleAction: PropTypes.func.isRequired,
+  handleAction: PropTypes.func,
 };
 
 const useStyles = makeStyles(theme => ({
@@ -74,6 +74,10 @@ const ListOfElementsForm = ({ handleAction }) => {
       />
     </div>
   );
+};
+
+ListOfElementsForm.defaultProps = {
+  handleAction: () => {},
 };
 
 ListOfElementsForm.propTypes = propTypes;
