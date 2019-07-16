@@ -13,6 +13,43 @@
 
 > React-Redux app to do list
 
+<h2>Packages</h2>
+
+<p>
+<h3> Core </h3>
+
+- React
+- React-router-dom
+- Redux
+- [Formik](https://jaredpalmer.com/formik/)
+  </p>
+
+<p>
+
+<p>
+<h3> Validate </h3>
+
+- [Yup](https://github.com/jquense/yup)
+
+ </p>
+
+<p>
+
+<h3> Test </h3>
+
+- [Jest](https://jestjs.io/)
+- [Enzyme](https://airbnb.io/enzyme/)
+- [Redux-Mock-Store](https://github.com/dmitry-zaets/redux-mock-store)
+- [Cypress](https://www.cypress.io/)
+  </p>
+
+<p>
+
+<h3> UI </h3>
+
+- [Material-UI](https://material-ui.com)
+  </p>
+
 ## Install
 
 ```sh
