@@ -1,7 +1,7 @@
 {
   "name": "react-redux-tdd-boilerplate",
   "version": "0.1.0",
-  "description": "React-Redux app to do list",
+  "description": "React redux app to do list",
   "repository": "git@github.com:Linusar/react-redux-tdd-todolist.git",
   "author": "Alejo Bianchi <alejobianchi@gmail.com>",
   "license": "Apache-2.0",
