@@ -37,6 +37,16 @@
 
 - [Material-UI](https://material-ui.com)
 
+## Started
+
+Clone the repo and make it yours:
+
+```bash
+git clone --depth 1 https://github.com/Linusar/react-redux-tdd-todolist
+cd react-redux-tdd-todolist
+rm -rf .git
+```
+
 ## Install
 
 ```sh
