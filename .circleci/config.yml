@@ -36,8 +36,5 @@ jobs:
       # run unit tests!
       - run: yarn test
 
-      # run e2e tests!
-      - run: yarn e2e
-
       # run build!
       - run: yarn build
