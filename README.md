@@ -77,6 +77,18 @@ yarn test
 yarn e2e
 ```
 
+## Continuos Integration
+
+### CI
+
+- [CircleCi](https://circleci.com/)
+
+## Deploy
+
+### Server
+
+- [Netlify](https://netlify.com)
+
 ## Author
 
 👤 **Alejo Bianchi <alejobianchi@gmail.com>**
