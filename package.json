@@ -27,7 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "e2e": "cypress open",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "netlify:deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\""
   },
   "eslintConfig": {
     "extends": "airbnb",
@@ -64,6 +65,7 @@
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
+    "netlify-cli": "^2.11.29",
     "react-test-renderer": "^16.8.6",
     "redux-mock-store": "^1.5.3"
   }
