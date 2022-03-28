@@ -94,7 +94,7 @@ yarn e2e
 👤 **Alejo Bianchi <alejobianchi@gmail.com>**
 
 - Twitter: [@Alejo40740246](https://twitter.com/Alejo40740246)
-- Github: [@Linusar](https://github.com/Linusar)
+- Github: [@a-bianchi/](https://github.com/a-bianchi)
 
 ## Show your support
 
